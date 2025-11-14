@@ -42,11 +42,12 @@ bld/
 *.db-wal
 App_DataEmployeeDatabase.db
 
-# Build results
+# Build results (but keep packages DLLs for .NET Framework projects)
 *.dll
 *.exe
 *.pdb
 *.cache
+!packages/**/*.dll
 
 # Temporary files
 *.tmp
